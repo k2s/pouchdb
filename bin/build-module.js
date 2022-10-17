@@ -26,7 +26,7 @@ var all = Promise.all.bind(Promise);
 // through aggressive bundling, ala pouchdb, because it's assumed that
 // for these packages bundle size is more important than modular deduping
 var AGGRESSIVELY_BUNDLED_PACKAGES =
-  ['pouchdb-for-coverage', 'pouchdb-node', 'pouchdb-browser'];
+  ['pouchdb-for-coverage', 'pouchdb-node', 'pouchdb-browser', 'pouchdb-node-thread'];
 // packages that only have a browser version
 var BROWSER_ONLY_PACKAGES =
   ['pouchdb-browser'];
